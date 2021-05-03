@@ -1,0 +1,62 @@
+body
+{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+   
+}
+.container{
+    width: 100%;
+    max-width: 370px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    background-color: #f1efef;
+    text-align: center;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    color: #2336ac;
+}
+button
+{
+    font-size: 18px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    margin: 10px 0px 10px 0px;
+    border: 2px solid #000000; 
+    font-weight: bold;
+    border-radius: 6px;
+}
+button#hit-button {
+    background-color: #2336ac;
+    color: #fff;
+    padding: 10px 20px;
+}
+button#stay-button {
+    background-color: #ffff00a6;
+    padding: 10px 14px;
+}
+button#new-game-button {
+    color: #fff;
+    background-color: green;
+    padding: 10px 15px;
+}
+button#restart-button {
+    color: #fff;
+    background-color: green;
+    padding: 10px 15px;
+}
+p#text-result-winner {
+    color: green;
+    font-weight: 600;
+}
+p#text-result-looser{
+    color: red;
+    font-weight: 600;
+}
+
+
+
+
+
+
